@@ -1,0 +1,369 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1340px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.header {
+  display: flex;
+  gap: 90px;
+  margin-left: 100px;
+  margin-top: 10px;
+  transform: translateY(-300px);
+  animation-name: header;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes box {
+  0% {
+    transform: translatex(-300px);
+  }
+  100% {
+    transform: translatex(15vh);
+  }
+}
+@keyframes header {
+  from {
+    transform: translateY(-300px);
+  }
+  to {
+    transform: translateY(5vh);
+  }
+}
+.hello {
+  width: 200px;
+  font-size: 25px;
+}
+.box {
+  margin-top: 150px;
+  margin-left: 50px;
+  transform: translateY(300px);
+  animation-name: box;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes imgess {
+  0% {
+    transform: translatex(300px);
+  }
+  100% {
+    transform: translatex(5vh);
+  }
+}
+.imgess {
+  transform: translateY(-300px);
+  animation-name: imgess;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-top: 40px;
+}
+.btn-two {
+  width: 120px;
+  height: 43px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(0, 162, 255);
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+.loyihalar {
+  margin-left: 100px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.btn-thri {
+  width: 170px;
+  height: 43px;
+  border: solid 2px gray;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.btns {
+  display: flex;
+  gap: 20px;
+}
+.btn-two:hover {
+  background-color: black;
+  border: solid 2px rgb(0, 162, 255);
+  box-shadow: 0 4px 8px 5px rgb(0, 162, 255), 0 6px 20px 0 rgb(0, 162, 255);
+}
+.card-one {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  background-color: rgb(43, 43, 43);
+  width: 700px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 26px;
+}
+.image-two {
+  width: 400px;
+  height: 450px;
+  margin-top: 100px;
+  border-radius: 100px;
+  animation: image 3s linear both;
+}
+@keyframes image {
+  100% {
+    box-shadow: 0 4px 30px 10px rgb(0, 162, 255), 0 10px 30px 0 rgb(0, 162, 255);
+  }
+}
+.clas {
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 100px;
+}
+.img-for {
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  box-shadow: 0 4px 8px 0 rgb(0, 162, 255), 0 6px 20px 0 rgb(0, 162, 255);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.cards-two {
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+.image-two:hover {
+  box-shadow: 0 4px 30px 10px rgb(0, 162, 255), 0 10px 30px 0 rgb(0, 162, 255);
+}
+.cards-one {
+  display: flex;
+  gap: 150px;
+}
+.one {
+  text-align: center;
+  margin-top: 10px;
+}
+.sayts {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+.image-tops {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.sayt {
+  color: gray;
+  font-size: 20px;
+  font-weight: 400;
+  width: 156px;
+}
+.home {
+  color: rgb(0, 162, 255);
+  font-size: 20px;
+  font-weight: 400;
+}
+.sayt:active {
+  color: rgb(0, 162, 255);
+}
+.islom {
+  position: relative;
+  bottom: 0;
+  margin-left: 50px;
+  margin-top: 37px;
+}
+.top-btn {
+  width: 170px;
+  height: 49px;
+  margin-top: 30px;
+  height: 43px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(0, 162, 255);
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+.top-btn:hover {
+  background-color: black;
+  border: solid 2px rgb(0, 162, 255);
+  box-shadow: 0 4px 8px 5px rgb(0, 162, 255), 0 6px 20px 0 rgb(0, 162, 255);
+}
+.card-two {
+  width: 300px;
+  background-color: rgb(43, 43, 43);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.card-two:hover {
+  transform: scale(1.2);
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 5px rgb(0, 162, 255), 0 6px 20px 0 rgb(0, 162, 255);
+}
+.cards-thri {
+  width: 1140px;
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-left: 170px;
+}
+.card-fayf {
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.btn-thrier {
+  width: 170px;
+  height: 43px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: rgb(0, 162, 255);
+  color: white;
+  margin-top: 50px;
+  margin-right: 300px;
+}
+.ohirgi {
+  display: flex;
+  gap: 20px;
+}
+.texts-for {
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 250px;
+}
+.haqida {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.btn-thrier:hover {
+  background-color: black;
+  border: solid 2px rgb(0, 162, 255);
+  box-shadow: 0 4px 8px 5px rgb(0, 162, 255), 0 6px 20px 0 rgb(0, 162, 255);
+}
+.skrinshot {
+  margin-top: 140px;
+}
+.boglanish {
+  text-align: center;
+  margin-left: 100px;
+}
+.frm {
+  width: 600px;
+  margin-left: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.inp {
+  padding: 20px 45px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: rgb(43, 43, 43);
+  margin-top: 50px;
+}
+
+.yuborish {
+  width: 170px;
+  height: 43px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: rgb(0, 162, 255);
+  color: white;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+.yuborish:hover {
+  background-color: black;
+  border: solid 2px rgb(0, 162, 255);
+  box-shadow: 0 4px 8px 5px rgb(0, 162, 255), 0 6px 20px 0 rgb(0, 162, 255);
+}
+.image-ozm {
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.image-ozm:hover {
+  animation-name: image-ozm;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-size: 100%;
+}
+.card-ten {
+  width: 500px;
+  border-radius: 40px;
+  background-color: beige;
+  padding: 20px 5px;
+  background-size: 100%;
+  margin-left: 100px;
+  height: 360px;
+}
+.btn-ozm {
+  width: 450px;
+  height: 60px;
+  border: none;
+  background-color: rgb(0, 162, 255);
+  border-radius: 100px;
+  margin-left: 20px;
+  font-size: 100%;
+  margin-top: 30px;
+}
+.href-ozm {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+@keyframes image-ozm {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+.cards-ten {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+}
+.loyiha {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.Fronted {
+  color: rgb(0, 162, 255);
+}
+.zer {
+  margin-left: 200px;
+  display: flex;
+  gap: 100px;
+}
